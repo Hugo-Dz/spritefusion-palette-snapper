@@ -8,13 +8,13 @@ Apply any palette to your pixel art, or reduce it to a few clean colors. Written
 
 <img src="./static/hero.png" alt="Palette Snapper" style="width: 100%; image-rendering: pixelated;">
 
-<p align="center"><em>The same sprites snapped to the <a href="https://lospec.com/palette-list/nintendo-gameboy-bgb">Nintendo Gameboy (bgb)</a> palette by ImageMagick (<code>-remap</code>, no dithering), Aseprite (CIELAB best fit) and Palette Snapper (<code>--mode lightness</code>).</em></p>
+<p align="center"><em>Palette: <a href="https://lospec.com/palette-list/nintendo-gameboy-bgb">Nintendo Gameboy (bgb)</a>, from Lospec. ImageMagick ran with <code>-remap</code> and no dithering.</em></p>
 
 ## Why ?
 
 **1. Pixel art can have far too many colors.** A sprite from an image model, or one that was resized or saved as a JPEG, can look like it has twelve colors and really have hundreds to thousands. Palette Snapper merges similar ones into a few clean colors, at most 32 by default. Every color left was drawn: nothing is averaged or invented.
 
-**2. Recoloring a sprite needs a tool made for pixel art.** Palette Snapper turns every pixel into exactly one of your palette's colors.
+**2. <img src="./static/recoloring.svg" alt="Recoloring" height="20" align="absmiddle"> a sprite needs a tool made for pixel art.** Palette Snapper turns every pixel into exactly one of your palette's colors.
 
 ## Perfect for
 
