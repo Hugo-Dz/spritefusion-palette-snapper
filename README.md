@@ -14,7 +14,7 @@ Apply any palette to your pixel art, or reduce it to a few clean colors. Written
 
 **1. Pixel art can have far too many colors.** A sprite from an image model, or one that was resized or saved as a JPEG, can look like it has twelve colors and really have hundreds to thousands. Palette Snapper merges similar ones into a few clean colors, at most 32 by default. Every color left was drawn: nothing is averaged or invented.
 
-**2. <a href="https://www.spritefusion.com/palette-snapper"><img src="./static/recoloring.svg" alt="Recoloring" height="20" align="absmiddle"></a> a sprite needs a tool made for pixel art.** Palette Snapper turns every pixel into exactly one of your palette's colors.
+**2. <a href="https://www.spritefusion.com/palette-snapper"><img src="./static/recoloring.svg" alt="Recoloring" height="20" align="absmiddle"></a> a sprite needs a tool made for pixel art.** Palette Snapper merges near-identical shades before recoloring, so flat areas stay flat instead of speckled.
 
 ## Perfect for
 
